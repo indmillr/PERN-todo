@@ -6,6 +6,6 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 
-app.listen(5000, () => {
+app.listen(5432, () => {
   console.log("server has started on port 5000");
 });
